@@ -10,20 +10,25 @@ html {
 }
 body {
   min-height: 100vh;
-  background-image: linear-gradient(to right top, #ffa07a, #ffa07a, #ffa07a, #ffa07a, #ffa07a, #ff9277, #ff8377, #ff7479, #fc4f87, #ed289f, #cb11bf, #8a2be2);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #232323;
+  color: ghostwhite;
+
 }
 .container {
   min-height: 95vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+img {
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+}
 .box {
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.10);
   border-radius: 16px;
   backdrop-filter: blur(9.1px);
   -webkit-backdrop-filter: blur(9.1px);
@@ -52,4 +57,9 @@ button {
   font-family: 'Manrope', sans-serif;
   border-radius: 3px;
   border: 1px solid black;
+  color: ghostwhite;
+  background: #232323;
+}
+a {
+  color: ghostwhite;
 }
